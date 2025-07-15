@@ -285,7 +285,7 @@ def process_files_in_folder(folder_path):
             # --- Merge Skyline_merged.csv with a file from 'fix' folder and update Flowback database ---
         try:
             skyline_merged_path = os.path.join(folder_path, 'Skyline_merged.csv')
-            fix_folder = r'C:\Users\Rita.Fazlyeva\Desktop\Database for Flowback\AllCSV\Test\fix'
+            fix_folder = r'C:\Users\Rita.Fazlyeva\Shell\Groundbirch Team - Spotfire data\Flowback database update'
             fix_files = glob.glob(os.path.join(fix_folder, '*.csv'))
             if not fix_files:
                 print("No CSV files found in the fix folder.")
