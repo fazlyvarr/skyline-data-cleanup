@@ -23,4 +23,4 @@ jobs:
         pip install pandas numpy openpyxl
 
     - name: Run Python script
-      run: python Skyline_reports_cleanup_fixed.py
+      run: Skyline reports cleanup and merge_source_update_bi-weekly.py
